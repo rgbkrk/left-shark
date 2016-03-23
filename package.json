@@ -1,14 +1,27 @@
 {
   "name": "left-shark",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Like left-pad, except for sharks.",
   "main": "index.js",
+  "dependencies": {
+    "lodash.padstart": "^4.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgbkrk/left-shark.git"
+  },
+  "keywords": [
+    "left-pad",
+    "lodash"
+  ],
   "author": "Kyle Kelley <rgbkrk@gmail.com>",
   "license": "Apache-2.0",
-  "dependencies": {
-    "lodash.padstart": "^4.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/rgbkrk/left-shark/issues"
+  },
+  "homepage": "https://github.com/rgbkrk/left-shark#readme"
 }
